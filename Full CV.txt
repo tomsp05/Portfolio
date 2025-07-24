@@ -1,0 +1,97 @@
+Education:  
+Royal Holloway University Of London (BSc Computer Science): 2023 - 2027
+Foundation Year Average: 74%
+First Year Average: 72%
+
+Sandbach School Sixth Form (A-Levels): 2021 - 2023 
+Mathematics, Physics, Computer Science
+Extended Project Qualification - Do the political, environmental and humanitarian implications outweigh the positives of space exploration?
+Selected as member of the Head Boy and Girl Team
+
+Sandbach School (GCSES): 2016 - 2021 
+9 GCSEs
+
+Projects/Events:
+(2024/2025) My team and I built and hosted our own Capture The Flag (CTF) event from the ground up. After months of planning and development, we partnered with BT to host our first CTF in central London, welcoming over 50 participants from across the UK. The free event featured more than 30 custom-built CTF challenges, talks from industry professionals, and networking opportunities for like-minded individuals. What started as a passion project between five university students became a full-scale event — a surreal and rewarding experience. Having gone from attending CTFs as a student, to helping organise a hackathon, to now leading the creation of an entire event ourselves, this marked a significant and exciting step in my personal and professional journey.
+
+(2024/2025) My team and I competed in the Cyber Leaders Challenge 2025. The competition involved developing a cyber incident response, surrounding an attack on the UK’s Critical National Infrastructure, and presenting this to a panel of judges consisting of Cabinet Office members & industry leaders. Despite narrowly missing out on placing within the top 3 teams, we gained so much from this entire experience from navigating threat intelligence to incident response briefing.
+
+(2024) Created a website for a local photographer. This project included regular meeting with the client, working to a strict time schedule, working to understand the clients needs/requirements, and ensuring the targets were met. In the end, the website (built on a Wordpress framework) was a 6 page site including many features used to display the photographers work. 
+
+(2023/2024) Assisted in the organization of a community hackathon, sponsored by a government organisation. The hackathon took place in April 2024 at Lancaster University and was attended by over 40 attendees from across the UK. The event consisted of three challenges, IoT, AI and wearable tech. Alongside organising the event I served as a technical expert throughout the event, providing assistance to the attendees. Lancaster Press Release: https://www.lancaster.ac.uk/news/future-cyber-skills-put-to-the-test-at-inaugural-national-cyber-force-hackathon
+
+(2022) Approached by a local swimming school to develop a ten-page website. The website was created using HTML, CSS and Java Script. This project developed my coding skills and truly tested my knowledge of website design and security. Since the website used a database to store client’s details, I ensured that the website was secure by executing many penetration tests on the contact form. Webpage developed: https://sharkies.sandbachschool.org/
+
+(March 2022) On the 24th March 2022 I attended “The Second Annual Changing Landscape of Cyber Security in The Public Sector” event which was held at The Kia Oval, London. The conference centred around examining the key issues related to improving cybersecurity in the UK in 2022. It gave a vital insight into how organisations can protect themselves against attacks and help with identifying/managing cyber risks. The event was sponsored by many cyber companies including: BSI, CrowdStrike, Synack, Yubico and many more.
+
+(Cyber Centurion 2020) Competed in a second national Cyber security competition, also held by Cyber Challenge UK and Northrop Grumman. After many qualifying rounds my team and I reached the final event again, following on from our success in 2019. The final event was located in Olympic park, London. Alongside the main competition, there were many lessons and talks hosted by event sponsors.
+
+(Cyber Centurion 2019) As part of the Combined Cadet Force in my local area I took part in Cyber Centurion 2019. This event was a cyber hackathon hosted by Cyber Challenge UK and Northrop Grumman, qualifying rounds began in October 2018. Overall we placed second nationally. This came with a cash prize, a medal and recognition from the event organisers. This experience gave me my passion for cyber security and showed me how to use my skills in a beneficial way.
+
+Experience:  
+Cyber Security Intern: UK Civil Service (HMRC Security) - June 2025 - September 2025
+3 months spent working within the UK Civil Service among multiple teams situated within cyber. 
+Key fields include identification fraud, digital forensics, SOC analyst, defensive/offensive cyber and government policy.
+
+1:1 Tutor: Self Employed - January 2025 - Present
+Working with students across many different years. 
+Tutoring subjects (in-person and online) such as Maths, Computer Science and English.
+Focusing on primary and GCSE students. 
+
+Club Lead: The Gap Club - January 2025 - Present
+Promoted to Club Lead within four months of joining as a Play-Worker in recognition of strong performance and successful completion of leadership training.
+Managed all daily operations for an after-school club, overseeing 20 children and 3 staff members.
+Directed all club administration, including registration, record-keeping, and communications, ensuring 100% compliance with company policies.
+Fostered a fun, welcoming, and inclusive environment for children, leading to consistently positive feedback from parents and carers.
+
+Technical facilitator: QA - March 2024 - March 2025
+QA offers technical training programs for businesses /educational settings throughout the UK. 
+My responsibilities involved making sure that all students received the appropriate level of guidance, support, and chances for interaction during the sessions. The training programs cover a wide range of technical applications, bringing together my technical skills and experience within education.
+
+Secure Software Engineer: BT - June 2024 - September 2024
+A 10 week internship working on the protection of critical national infrastructure including work in web development.
+Researched and delivered cloaking techniques with a working demonstration to use as a testbed for future research.
+
+Bartender: Great Fosters Luxury Hotel - October 2023 - January 2025
+Crafted high-end cocktails to significantly enhance guest experience and contribute to the hotel's luxury ambiance.
+Demonstrated strong communication skills, coordinating efficiently with all team members to maintain high service standards and operational efficiency.
+Played a key role in ensuring seamless operations across all three hotel bars, adapting to dynamic environments and working effectively with a lean team.
+
+Bartender: DV8 Cocktail Bar/Restaurant - June 2023 - October 2023
+As a bartender at DV8 my role included making many bespoke cocktails in an efficient manner (learnt through multiple hours of dedicated cocktail training). 
+Alongside the bar work my role also included serving food and serving customers throughout their dining experience. 
+
+Cyber Security Support: South Cheshire Chamber of Commerce and Industry – June 2022 - July 2022 
+Worked hand in hand with the Chief Executive to provide cyber security support to the chamber’s members. This included researching effective cyber certifications for businesses, collating information on the threats of cyber-attacks and liaising with members of the chamber. 
+Presented my action plan and findings to the chambers Chief Executive, Operations Manager and the membership co-ordinator. 
+
+Assistant Network Technician: Sandbach School - June 2022 – February 2023 
+Re-imaged PCs around the site ensuring every machine was on the latest update and was working as expected.
+Completed repairs to equipment and cabling and provide on-the-spot advice.
+Maintained all necessary records and documentation including inventories. 
+
+Play-worker/Classroom Assistant: Scholar Green Primary School - September 2021 - January 2025 
+Worked with/supported children aged 2-11 after school and during school holidays.
+Provided 1:1 support for children with EHCP’s (Educational Healthcare Plans) throughout the school day. This included session planning to ensure the work is correctly catered to their needs and developing work to be engaging for these children. 
+Developed my communication skills by adapting them to a new age demographic.
+Responsible for enduring the safety of children, aided by an awareness of safeguarding and paediatric first aid training
+
+Bar Staff/Administration Staff: Sandbach Cricket Club – April 2021 – March 2023 
+Increased my organisational skills by establishing extra responsibilities such as stock takes allowing for missing stock to be identified and streamlining the ordering process, reducing the time taken to stock check by 25%. 
+Gained trust from previous work and took on a more senior role. Trusted to handle cash and manage cellar under an admin role, thus increasing my time management skills to balance these new responsibilities.
+Used the skills I had acquired to work in conjunction with the management committee during a change in leadership. Helping aid the new management of the club. 
+
+Interests/Achievements:  
+(2024 - 2025) During my time at Royal Holloway, University of London, I served as a committee member of the Sci-Fi and Fantasy society. As the treasurer, I was responsible for managing memberships, budgeting events for each term, communicating with senior student union staff, and effectively developing strategies for financing the society. 
+
+(2021 – 2023) During my time in Sandbach school I was invited to be a member of the Head Boy and Girl Team. My proactive attitude and hard work was recognised by senior management as an asset to the team.
+
+2019) Achieved Duke of Edinburgh bronze award showing commitment and my enthusiasm for teamwork. As part of this award, I volunteered to run a coding club at Sandbach School for year 7-9 students.
+
+(2017-2021) Member of my local Combined Cadet Force (reaching Lance Corporal in the RAF) where I gained several hours of flying experience, leadership training, military discipline and cyber security knowledge.  
+
+Volunteering:  
+(September 2021) I assisted in settling in and conducting basic activities with a small group of refugee children from Afghanistan. This experience offered profound insights into their culture and ways of life, challenging me to apply my interpersonal and communication skills within a new cultural and environmental context. The children's ages ranged from 11 years old to over 18. As they were in the initial stages of integrating into the school, two other members of the student leadership team and I facilitated their transition by guiding them around, conducting basic English activities, and serving as intermediaries between them and the teachers.
+
+References:  
+Available on request
