@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Speake - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Simple print styles */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .no-print {
+                display: none;
+            }
+            .print-break-before {
+                page-break-before: always;
+            }
+            .print-container {
+                box-shadow: none;
+                margin: 0;
+                max-width: 100%;
+                border-radius: 0;
+                border: none;
+            }
+            .page {
+                height: 100vh; /* Attempt to fit content to page */
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Page 1 -->
+    <div class="page print-container container mx-auto my-12 p-8 lg:p-12 bg-white rounded-2xl shadow-2xl max-w-6xl border-t-8 border-blue-600">
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight">Thomas Speake</h1>
+            <p class="text-xl text-blue-600 mt-2 font-medium">Cybersecurity & Software Development Professional</p>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <!-- Left Column: Main Content -->
+            <main class="lg:col-span-2">
+                <!-- Profile Section -->
+                <section class="mb-10">
+                    <h2 class="flex items-center text-2xl font-bold text-gray-900 border-b-2 border-blue-500 pb-2 mb-4">
+                        <svg class="w-6 h-6 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                        Professional Profile
+                    </h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        A highly motivated and results-oriented Computer Science student at Royal Holloway with a proven passion for cybersecurity. Demonstrated experience in leading technical projects, from organising national Capture The Flag (CTF) events to developing secure software for Critical National Infrastructure with BT. Seeking to leverage a strong foundation in digital forensics, incident response, and software engineering to contribute to a forward-thinking organisation.
+                    </p>
+                </section>
+
+                <!-- Professional Experience Section -->
+                <section class="mb-10">
+                    <h2 class="flex items-center text-2xl font-bold text-gray-900 border-b-2 border-blue-500 pb-2 mb-6">
+                        <svg class="w-6 h-6 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        Key Professional Experience
+                    </h2>
+                    <div class="space-y-6">
+                        <!-- Experience Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-blue-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Cyber Security Intern</p>
+                            <p class="text-sm text-gray-600">UK Civil Service (HMRC Security) • June 2025 - Sep 2025</p>
+                            <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                                <li>Immersed in multiple cybersecurity domains, including identification fraud, digital forensics, and SOC analysis.</li>
+                                <li>Gained hands-on experience with both defensive and offensive cyber operations and contributed to government policy discussions.</li>
+                            </ul>
+                        </div>
+                        <!-- Experience Item -->
+                        <div class="relative pl-6">
+                             <div class="absolute left-0 top-1.5 w-3 h-3 bg-blue-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Secure Software Engineer (Intern)</p>
+                            <p class="text-sm text-gray-600">BT • June 2024 - Sep 2024</p>
+                            <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                                <li>Contributed to the protection of UK's Critical National Infrastructure through a 10-week intensive internship.</li>
+                                <li>Researched, developed, and delivered a proof-of-concept demonstration of cloaking techniques.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Key Projects Section -->
+                <section>
+                    <h2 class="flex items-center text-2xl font-bold text-gray-900 border-b-2 border-blue-500 pb-2 mb-6">
+                        <svg class="w-6 h-6 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                        Flagship Projects & Events
+                    </h2>
+                    <div class="space-y-6">
+                         <!-- Project Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-blue-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Founder & Organiser | Aurora CTF Events</p>
+                             <p class="text-sm text-gray-600">2024 - 2025</p>
+                            <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                                <li>Student lead organisation aiming to help university students build a career in cyber. </li>
+                                <li>Spearheaded the creation and execution of a full-scale Capture The Flag event, partnering with BT.</li>
+                                <li>Developed over 30 custom challenges as a team, attracting 50+ participants from accross the nation.</li>
+                            </ul>
+                        </div>
+                        <!-- Project Item -->
+                        <div class="relative pl-6">
+                             <div class="absolute left-0 top-1.5 w-3 h-3 bg-blue-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Cyber Leaders Challenge 2025 | Team Competitor</p>
+                            <p class="text-sm text-gray-600">2025</p>
+                            <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                                <li>Developed and presented a comprehensive cyber incident response plan for a simulated attack on UK CNI.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Right Column: Sidebar -->
+            <aside class="lg:col-span-1">
+                <!-- Contact Section -->
+                 <div class="bg-gray-50 p-6 rounded-xl mb-8 border border-gray-200">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Contact</h3>
+                    <div class="space-y-3 text-gray-700">
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            <a href="mailto:tom@tspeake.com" class="hover:text-blue-700 hover:underline">tom@tspeake.com</a>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                            <a href="https://www.linkedin.com/in/thomas-s-3a6715294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" class="hover:text-blue-700 hover:underline">linkedin.com</a>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            <span>London, UK</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core Competencies Section -->
+                <div class="bg-gray-50 p-6 rounded-xl mb-8 border border-gray-200">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Core Competencies</h3>
+                    <div>
+                        <h4 class="font-semibold text-blue-700 mb-2">Cyber Security</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Incident Response</span>
+                            <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Digital Forensics</span>
+                            <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Penetration Testing</span>
+                            <span class="bg-blue-100 text-blue-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Threat Intelligence</span>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="font-semibold text-green-700 mb-2">Development</h4>
+                         <div class="flex flex-wrap gap-2">
+                            <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">iOS Development</span>
+                            <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">HTML, CSS, JS</span>
+                            <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">WordPress</span>
+                            <span class="bg-green-100 text-green-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Secure Software Eng.</span>
+                        </div>
+                    </div>
+                     <div class="mt-4">
+                        <h4 class="font-semibold text-purple-700 mb-2">Professional</h4>
+                         <div class="flex flex-wrap gap-2">
+                            <span class="bg-purple-100 text-purple-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Project Management</span>
+                            <span class="bg-purple-100 text-purple-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Leadership</span>
+                            <span class="bg-purple-100 text-purple-800 text-sm font-medium px-2.5 py-0.5 rounded-full">Client Communication</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Section -->
+                <div class="bg-gray-50 p-6 rounded-xl mb-8 border border-gray-200">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Education</h3>
+                    <div class="relative pl-4">
+                        <div class="absolute left-0 top-1 w-2 h-2 bg-gray-400 rounded-full"></div>
+                        <p class="font-semibold text-gray-800">BSc Computer Science</p>
+                        <p class="text-sm text-gray-600">Royal Holloway, University of London</p>
+                        <p class="text-sm text-gray-500">2023 - 2027</p>
+                    </div>
+                     <div class="relative pl-4 mt-4">
+                        <div class="absolute left-0 top-1 w-2 h-2 bg-gray-400 rounded-full"></div>
+                        <p class="font-semibold text-gray-800">A-Levels & EPQ</p>
+                        <p class="text-sm text-gray-600">Sandbach School Sixth Form</p>
+                        <p class="text-sm text-gray-500">2021 - 2023</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="page print-break-before print-container container mx-auto my-12 p-8 lg:p-12 bg-white rounded-2xl shadow-2xl max-w-6xl border-t-8 border-gray-400">
+         <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-800 tracking-tight">Thomas Speake</h1>
+            <p class="text-lg text-gray-600 mt-2 font-medium">Additional Experience & Projects</p>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <!-- Left Column: Main Content -->
+            <main class="lg:col-span-2">
+                <!-- Additional Experience Section -->
+                <section class="mb-10">
+                    <h2 class="flex items-center text-2xl font-bold text-gray-900 border-b-2 border-gray-400 pb-2 mb-6">
+                        <svg class="w-6 h-6 mr-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+                        Additional Experience
+                    </h2>
+                    <div class="space-y-6">
+                        <!-- Experience Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Wrap-Around Care Club Lead</p>
+                            <p class="text-sm text-gray-600">The Gap Club • Jan 2025 - Present</p>
+                        </div>
+                        <!-- Experience Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">1:1 STEM Tutor</p>
+                            <p class="text-sm text-gray-600">Self Employed • Jan 2025 - Present</p>
+                        </div>
+                        <!-- Experience Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Technical Facilitator</p>
+                            <p class="text-sm text-gray-600">QA • Mar 2024 - Mar 2025</p>
+                        </div>
+                        <!-- Experience Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Assistant Network Technician</p>
+                            <p class="text-sm text-gray-600">Sandbach School • June 2022 - Feb 2023</p>
+                        </div>
+                        <!-- Experience Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Cyber Security Support (Student Experience)</p>
+                            <p class="text-sm text-gray-600">South Cheshire Chamber of Commerce • June 2022 - July 2022</p>
+                        </div>
+                         <!-- Experience Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Play-worker/Classroom Assistant</p>
+                            <p class="text-sm text-gray-600">Scholar Green Primary School • Sep 2021 - Jan 2025</p>
+                        </div>
+                        <!-- Experience Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Bartender & Administration</p>
+                            <p class="text-sm text-gray-600">Multiple Venues • 2021 - 2025</p>
+                        </div>
+                    </div>
+                </section>
+
+                 <!-- Further Projects Section -->
+                <section>
+                    <h2 class="flex items-center text-2xl font-bold text-gray-900 border-b-2 border-gray-400 pb-2 mb-6">
+                        <svg class="w-6 h-6 mr-3 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                        Further Projects & Events
+                    </h2>
+                    <div class="space-y-6">
+                         <!-- NEW Project Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">iOS Personal Finance App Developer</p>
+                            <p class="text-sm text-gray-600">Independent Project • 2025</p>
+                            <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                                <li>Engineered a full-stack iOS application to manage personal finances, from concept to public beta.</li>
+                                <li>Managed all aspects of product development, including mobile engineering and UI/UX design.</li>
+                            </ul>
+                        </div>
+                         <!-- Project Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Community Hackathon | Organiser & Technical Expert</p>
+                            <p class="text-sm text-gray-600">Assisted in the running & assisted with technical assistance: 2023 - 2024</p>
+                        </div>
+                        <!-- Project Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Freelance Web Developer</p>
+                            <p class="text-sm text-gray-600">Multiple websites developed: 2022 - 2024</p>
+                        </div>
+                        <!-- Project Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Conference Attendee | Changing Landscape of Cyber Security</p>
+                            <p class="text-sm text-gray-600">Attended in March 2022</p>
+                        </div>
+                        <!-- Project Item -->
+                        <div class="relative pl-6">
+                            <div class="absolute left-0 top-1.5 w-3 h-3 bg-gray-500 rounded-full border-2 border-white shadow"></div>
+                            <p class="font-semibold text-lg text-gray-800">Cyber Centurion | National Finalist (2nd Place 2019)</p>
+                            <p class="text-sm text-gray-600">Competed in both 2019 & 2020 competitions</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Right Column: Sidebar -->
+            <aside class="lg:col-span-1">
+                <!-- Leadership Section -->
+                <div class="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Leadership & Volunteering</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>
+                            <span class="font-semibold">Society Treasurer</span><br>
+                            <span class="text-sm">Royal Holloway Sci-Fi & Fantasy Society</span>
+                        </li>
+                         <li>
+                            <span class="font-semibold">Head Boy & Girl Team Member</span><br>
+                            <span class="text-sm">Sandbach School</span>
+                        </li>
+                        <li>
+                            <span class="font-semibold">Duke of Edinburgh Bronze Award</span><br>
+                            <span class="text-sm">Included running a coding club for students</span>
+                        </li>
+                         <li>
+                            <span class="font-semibold">Lance Corporal (CCF)</span><br>
+                            <span class="text-sm">Combined Cadet Force (RAF Section)</span>
+                        </li>
+                        <li>
+                            <span class="font-semibold">Volunteer</span><br>
+                            <span class="text-sm">Refugee Integration Support</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+</body>
+</html>
