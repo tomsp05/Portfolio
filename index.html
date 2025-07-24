@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Speake - Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Main Container -->
+    <div class="container mx-auto my-12 p-8 lg:p-12 bg-white rounded-2xl shadow-2xl max-w-6xl">
+
+        <!-- Navigation -->
+        <nav class="flex justify-center space-x-8 text-lg font-medium text-gray-600 mb-8 pb-4 border-b">
+            <a href="index.html" class="text-blue-600 font-semibold border-b-2 border-blue-600 pb-1">Home</a>
+            <a href="experience.html" class="hover:text-blue-600 transition-colors">Experience</a>
+            <a href="projects.html" class="hover:text-blue-600 transition-colors">Projects</a>
+            <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
+        </nav>
+
+        <!-- Header Section -->
+        <header class="text-center mb-12">
+            <h1 class="text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight">Thomas Speake</h1>
+            <p class="text-xl text-blue-600 mt-2 font-medium">Cybersecurity & Software Development Professional</p>
+        </header>
+
+        <main>
+            <!-- About Me Section -->
+            <section id="about" class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">About Me</h2>
+                <div class="max-w-3xl mx-auto text-center text-gray-700 leading-relaxed">
+                    <p>
+                        A hardworking and motivated Computer Science student at Royal Holloway, University of London, with a passion for gaining commercial experience and expanding my knowledge within the cybersecurity and mathematical fields. This space is a showcase of my journey, projects, and professional experiences.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Flagship Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1: Aurora CTF -->
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow duration-300 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Founder & Organiser | Aurora CTF</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Co-founded and led a team to build and host a national Capture The Flag event from the ground up. Partnered with BT to welcome over 50 participants, featuring 30+ custom challenges and talks from industry professionals.</p>
+                        <a href="ctfProject.html" class="font-medium text-blue-600 hover:text-blue-800 mt-auto">Learn More &rarr;</a>
+                    </div>
+                    <!-- Project Card 2: Cyber Leaders Challenge -->
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow duration-300 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Cyber Leaders Challenge 2025</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Competed in a national challenge to develop a comprehensive cyber incident response plan for a simulated attack on the UK's Critical National Infrastructure, presenting our strategy to Cabinet Office members and industry leaders.</p>
+                        <a href="#" class="font-medium text-blue-600 hover:text-blue-800 mt-auto">Learn More &rarr;</a>
+                    </div>
+                    <!-- Project Card 3: Community Hackathon -->
+                    <div class="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow duration-300 flex flex-col">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Hackathon Organiser & Technical Expert</h3>
+                        <p class="text-gray-600 mb-4 flex-grow">Assisted in organising a community hackathon sponsored by a government organisation. Served as a technical expert for over 40 attendees, providing guidance on IoT, AI, and wearable tech challenges.</p>
+                        <a href="https://www.lancaster.ac.uk/news/future-cyber-skills-put-to-the-test-at-inaugural-national-cyber-force-hackathon" target="_blank" rel="noopener noreferrer" class="font-medium text-blue-600 hover:text-blue-800 mt-auto">View Press Release &rarr;</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="text-center bg-gray-50 p-8 rounded-xl border border-gray-200">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Get In Touch</h2>
+                <p class="text-gray-700 max-w-2xl mx-auto mb-6">I'm always open to discussing new projects, creative ideas, or opportunities to be part of an amazing team. Feel free to reach out.</p>
+                <div class="flex justify-center items-center space-x-8">
+                    <div class="flex items-center text-lg">
+                        <svg class="w-6 h-6 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <a href="mailto:tom@tspeake.com" class="hover:text-blue-700 hover:underline">tom@tspeake.com</a>
+                    </div>
+                    <div class="flex items-center text-lg">
+                        <svg class="w-6 h-6 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                        <a href="https://www.linkedin.com/in/thomas-s-3a6715294" target="_blank" rel="noopener noreferrer" class="hover:text-blue-700 hover:underline">LinkedIn</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 text-gray-500">
+            <p>&copy; 2025 Thomas Speake. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
