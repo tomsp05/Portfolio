@@ -12,102 +12,176 @@
         body {
             font-family: 'Inter', sans-serif;
         }
+        /* Custom styles for the timeline connector */
+        .timeline-connector {
+            width: 3px;
+            height: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-gray-50 text-gray-800">
 
     <!-- Main Container -->
-    <div class="container mx-auto my-12 p-8 lg:p-12 bg-white rounded-2xl shadow-2xl max-w-6xl">
+    <div class="container mx-auto my-12 p-4 sm:p-8 lg:p-12 bg-white rounded-2xl shadow-2xl max-w-7xl">
 
         <!-- Navigation -->
-        <nav class="flex justify-center space-x-8 text-lg font-medium text-gray-600 mb-8 pb-4 border-b">
+        <nav class="flex justify-center space-x-4 sm:space-x-8 text-md sm:text-lg font-medium text-gray-600 mb-8 pb-4 border-b">
             <a href="index.html" class="hover:text-blue-600 transition-colors">Home</a>
             <a href="experience.html" class="text-blue-600 font-semibold border-b-2 border-blue-600 pb-1">Experience</a>
-            <a href="#" class="hover:text-blue-600 transition-colors">Projects</a>
+            <a href="projects.html" class="hover:text-blue-600 transition-colors">Projects</a>
             <a href="index.html#contact" class="hover:text-blue-600 transition-colors">Contact</a>
         </nav>
 
         <!-- Header Section -->
-        <header class="text-center mb-16">
+        <header class="text-center mb-20">
             <h1 class="text-4xl lg:text-5xl font-bold text-gray-900 tracking-tight">Professional Experience</h1>
             <p class="text-xl text-gray-600 mt-2 font-medium">A timeline of my roles and responsibilities.</p>
         </header>
 
         <main>
             <!-- Experience Timeline -->
-            <div class="relative border-l-2 border-blue-200 ml-4 md:ml-0">
-                <!-- Experience Item -->
-                <div class="mb-12 md:flex">
-                    <div class="md:w-1/4">
-                        <p class="font-semibold text-gray-600">June 2025 - Sep 2025</p>
-                    </div>
-                    <div class="md:w-3/4 relative">
-                        <div class="absolute -left-[2.8rem] top-1 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
-                        <h3 class="text-xl font-bold text-gray-800">Cyber Security Intern</h3>
-                        <p class="text-md font-medium text-gray-700 mb-2">UK Civil Service (HMRC Security)</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1">
-                            <li>Spent 3 months working within multiple cybersecurity teams, including identification fraud, digital forensics, and SOC analysis.</li>
-                            <li>Engaged with defensive/offensive cyber operations and contributed to government policy discussions.</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Experience Item -->
-                <div class="mb-12 md:flex">
-                    <div class="md:w-1/4">
-                        <p class="font-semibold text-gray-600">Jan 2025 - Present</p>
-                    </div>
-                    <div class="md:w-3/4 relative">
-                        <div class="absolute -left-[2.8rem] top-1 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
-                        <h3 class="text-xl font-bold text-gray-800">Club Lead</h3>
-                        <p class="text-md font-medium text-gray-700 mb-2">The Gap Club</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1">
-                            <li>Promoted to Club Lead within four months in recognition of strong performance.</li>
-                            <li>Managed daily operations for an after-school club, overseeing 20 children and 3 staff members.</li>
-                            <li>Directed all club administration, ensuring 100% compliance with company policies.</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="relative">
+                <!-- Central Timeline Connector for Desktop -->
+                <div class="hidden md:block absolute bg-blue-200 timeline-connector"></div>
 
-                <!-- Experience Item -->
-                <div class="mb-12 md:flex">
-                    <div class="md:w-1/4">
-                        <p class="font-semibold text-gray-600">June 2024 - Sep 2024</p>
+                <div class="space-y-12 md:space-y-16">
+
+                    <!-- Timeline Item: Cyber Security Intern -->
+                    <div class="relative md:grid md:grid-cols-2 md:gap-x-12">
+                        <div class="md:text-right">
+                             <div class="inline-block w-full max-w-md ml-auto bg-gray-100 p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
+                                <p class="font-semibold text-blue-600 mb-1">June 2025 - Sep 2025</p>
+                                <h3 class="text-xl font-bold text-gray-800">Cyber Security Intern</h3>
+                                <p class="text-md font-medium text-gray-600 mb-3">UK Civil Service (HMRC Security)</p>
+                                <ul class="list-disc list-inside text-left md:text-right text-gray-700 space-y-1 text-sm">
+                                    <li>Worked within multiple cybersecurity teams, including identification fraud, digital forensics, and SOC analysis.</li>
+                                    <li>Engaged with defensive/offensive cyber operations and contributed to government policy discussions.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hidden md:block absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+                            <div class="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-full text-white ring-8 ring-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.286zm0 13.036h.008v.008h-.008v-.008z" /></svg>
+                            </div>
+                        </div>
+                        <div class="hidden md:block"></div>
                     </div>
-                    <div class="md:w-3/4 relative">
-                        <div class="absolute -left-[2.8rem] top-1 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
-                        <h3 class="text-xl font-bold text-gray-800">Secure Software Engineer</h3>
-                        <p class="text-md font-medium text-gray-700 mb-2">BT</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1">
-                            <li>Completed a 10-week internship focused on the protection of critical national infrastructure.</li>
-                            <li>Researched and delivered cloaking techniques with a working demonstration for future research.</li>
-                        </ul>
+                    
+                    <!-- Timeline Item: 1:1 Tutor -->
+                    <div class="relative md:grid md:grid-cols-2 md:gap-x-12">
+                        <div class="hidden md:block"></div>
+                        <div>
+                             <div class="inline-block w-full max-w-md bg-gray-100 p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
+                                <p class="font-semibold text-blue-600 mb-1">Jan 2025 - Present</p>
+                                <h3 class="text-xl font-bold text-gray-800">1:1 Tutor</h3>
+                                <p class="text-md font-medium text-gray-600 mb-3">Self-Employed</p>
+                                <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                                    <li>Tutoring subjects such as Maths, Computer Science, and English for primary and GCSE students.</li>
+                                    <li>Working with students across many different years, both in-person and online.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hidden md:block absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+                            <div class="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-full text-white ring-8 ring-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+                            </div>
+                        </div>
                     </div>
+
+                    <!-- Timeline Item: Club Lead -->
+                    <div class="relative md:grid md:grid-cols-2 md:gap-x-12">
+                        <div class="md:text-right">
+                             <div class="inline-block w-full max-w-md ml-auto bg-gray-100 p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
+                                <p class="font-semibold text-blue-600 mb-1">Jan 2025 - Present</p>
+                                <h3 class="text-xl font-bold text-gray-800">Club Lead</h3>
+                                <p class="text-md font-medium text-gray-600 mb-3">The Gap Club</p>
+                                <ul class="list-disc list-inside text-left md:text-right text-gray-700 space-y-1 text-sm">
+                                    <li>Promoted within four months in recognition of strong performance.</li>
+                                    <li>Managed daily operations for an after-school club, overseeing 20 children and 3 staff members.</li>
+                                    <li>Directed all club administration, ensuring 100% compliance with company policies.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hidden md:block absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+                            <div class="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-full text-white ring-8 ring-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.653-.125-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.653.125-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                            </div>
+                        </div>
+                        <div class="hidden md:block"></div>
+                    </div>
+
+                    <!-- Timeline Item: Technical Facilitator -->
+                    <div class="relative md:grid md:grid-cols-2 md:gap-x-12">
+                        <div class="hidden md:block"></div>
+                        <div>
+                             <div class="inline-block w-full max-w-md bg-gray-100 p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
+                                <p class="font-semibold text-blue-600 mb-1">Mar 2024 - Mar 2025</p>
+                                <h3 class="text-xl font-bold text-gray-800">Technical Facilitator</h3>
+                                <p class="text-md font-medium text-gray-600 mb-3">QA</p>
+                                <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                                    <li>Provided guidance and support to students during technical training programs.</li>
+                                    <li>Covered a wide range of technical applications, combining technical skills with educational experience.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hidden md:block absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+                            <div class="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-full text-white ring-8 ring-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item: Secure Software Engineer -->
+                    <div class="relative md:grid md:grid-cols-2 md:gap-x-12">
+                        <div class="md:text-right">
+                             <div class="inline-block w-full max-w-md ml-auto bg-gray-100 p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
+                                <p class="font-semibold text-blue-600 mb-1">June 2024 - Sep 2024</p>
+                                <h3 class="text-xl font-bold text-gray-800">Secure Software Engineer</h3>
+                                <p class="text-md font-medium text-gray-600 mb-3">BT</p>
+                                <ul class="list-disc list-inside text-left md:text-right text-gray-700 space-y-1 text-sm">
+                                    <li>Completed a 10-week internship focused on protecting critical national infrastructure.</li>
+                                    <li>Researched and delivered cloaking techniques with a working demonstration for future research.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hidden md:block absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+                            <div class="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-full text-white ring-8 ring-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" /></svg>
+                            </div>
+                        </div>
+                        <div class="hidden md:block"></div>
+                    </div>
+                    
+                    <!-- Timeline Item: Assistant Network Technician -->
+                     <div class="relative md:grid md:grid-cols-2 md:gap-x-12">
+                        <div class="hidden md:block"></div>
+                        <div>
+                             <div class="inline-block w-full max-w-md bg-gray-100 p-6 rounded-xl shadow-md border border-gray-200 hover:shadow-lg transition-shadow duration-300">
+                                <p class="font-semibold text-blue-600 mb-1">June 2022 - Feb 2023</p>
+                                <h3 class="text-xl font-bold text-gray-800">Assistant Network Technician</h3>
+                                <p class="text-md font-medium text-gray-600 mb-3">Sandbach School</p>
+                                <ul class="list-disc list-inside text-gray-700 space-y-1 text-sm">
+                                    <li>Re-imaged PCs around the site ensuring every machine was on the latest update.</li>
+                                    <li>Completed repairs to equipment and cabling and provide on-the-spot advice.</li>
+                                    <li>Maintained all necessary records and documentation including inventories.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="hidden md:block absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
+                            <div class="flex items-center justify-center w-12 h-12 bg-blue-500 rounded-full text-white ring-8 ring-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" /></svg>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-
-                <!-- Experience Item -->
-                <div class="mb-12 md:flex">
-                    <div class="md:w-1/4">
-                        <p class="font-semibold text-gray-600">Mar 2024 - Mar 2025</p>
-                    </div>
-                    <div class="md:w-3/4 relative">
-                        <div class="absolute -left-[2.8rem] top-1 w-4 h-4 bg-blue-500 rounded-full border-4 border-white"></div>
-                        <h3 class="text-xl font-bold text-gray-800">Technical Facilitator</h3>
-                        <p class="text-md font-medium text-gray-700 mb-2">QA</p>
-                        <ul class="list-disc list-inside text-gray-700 space-y-1">
-                            <li>Ensured students received appropriate guidance and support during technical training programs.</li>
-                            <li>Covered a wide range of technical applications, combining technical skills with educational experience.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                 <!-- Add more experience items as needed -->
-
             </div>
         </main>
 
         <!-- Footer -->
-        <footer class="text-center mt-12 text-gray-500">
+        <footer class="text-center mt-20 text-gray-500">
             <p>&copy; 2025 Thomas Speake. All Rights Reserved.</p>
         </footer>
 
